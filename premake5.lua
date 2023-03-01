@@ -1,4 +1,4 @@
-project "ImGui"
+project "ImGuiWithImPlot"
 	kind "StaticLib"
 	language "C++"
     staticruntime "off"
@@ -18,7 +18,12 @@ project "ImGui"
 		"imstb_rectpack.h",
 		"imstb_textedit.h",
 		"imstb_truetype.h",
-		"imgui_demo.cpp"
+		"imgui_demo.cpp",
+		"implot.cpp",
+		"implot.h",
+		"implot_demo.cpp",
+		"implot_internal.h",
+		"implot_items.cpp"
 	}
 
 	filter "system:windows"
